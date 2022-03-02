@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     /* body *{
         background-color: blueviolet;
     } */
@@ -8,16 +8,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-inline: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .align{
+    .align-form{
         align-items: center;
         margin-left: 30px;
+        margin-top: 7px;
     }
     
     .color-input{
-        background-color: white;
+        background: white;
         color: rgb(60, 60, 255);
+        justify-content: center;
+
     }
 }
