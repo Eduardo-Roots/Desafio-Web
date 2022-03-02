@@ -10,7 +10,7 @@ function formatDate(date) {
 function showList() {
     // mostra a lista de todo
     if (lembretes.length > 0) {
-        const htmlTemp = (`<ul> ${lembretes.map(itens => `<li> ${formatDate(itens.date)} --> ${itens.descricao}</li> </ul>`)} </ul><button class="ml-5 mt-5 bg-danger text-light">Apagar tudo do dia</button>`);
+        const htmlTemp = (`<ol> ${lembretes.map(itens => `<li> ${formatDate(itens.date)} --> ${itens.descricao}`)} </ol> <button class="ml-5 mt-5 bg-danger text-light">Apagar tudo do dia</button>`);
         output.innerHTML = htmlTemp;
     } else {
         output.innerHTML = 'Você ainda não tem lembretes!';
