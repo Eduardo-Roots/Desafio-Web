@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CEP</title>
 
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="js/script-cep.js" type='module' defer></script>
 
     <script src="https://kit.fontawesome.com/ef4bda2c1c.js" crossorigin="anonymous"></script>
@@ -37,7 +39,10 @@
 
                     <div class="align-self-center display-3 d-flex fles-wrap text-center">
                         <div class=".title">
-                            <span class="text-warning display-2 px-5">R<i class="fa-solid fa-cog fa-spin" style="--fa-animation-duration: 2s;"></i><i class="fa-solid fa-cog fa-spin fa-spin-reverse" style="font-size: 55px; --fa-animation-duration: 1s;"></i>ts</span>
+                            <span class="text-warning display-2 px-5">R<i class="fa-solid fa-cog fa-spin"
+                                    style="--fa-animation-duration: 2s;"></i><i
+                                    class="fa-solid fa-cog fa-spin fa-spin-reverse"
+                                    style="font-size: 55px; --fa-animation-duration: 1s;"></i>ts</span>
                         </div>
 
                     </div>
@@ -67,10 +72,10 @@
 
         <div class="container py-3 bg-primary text-secondary">
 
-            <form id="form-task" class="text-sm-left">
+            <form id="form-task" class="align text-sm-left">
 
 
-                <input class="text-primary text-sm-center" type="text" name="cep" id="cep" placeholder="Digite o CEP"
+                <input class="color-input text-primary text-sm-center" type="text" name="cep" id="cep" placeholder="Digite o CEP"
                     required>
 
 
@@ -80,26 +85,28 @@
 
             </form>
 
-            <div class="container-fluid my-4 bg-warning p-5 text-dark text-sm-center d-inline-flex d-flex">
-                <div class="p-3">
-                    <label for="endereco">Endereço</label>
-                    <input class="text-primary text-sm-center" type="text" name="endereco" id="endereco"
-                        placeholder="Endereço" required>
-                </div>
-                <div class="p-3">
-                    <label for="bairro">Bairro</label>
-                    <input class="text-primary text-sm-center" type="text" name="bairro" id="bairro"
-                        placeholder="Bairro" required>
-                </div>
-                <div class="p-3">
-                    <label for="cidade">Cidade</label>
-                    <input class="text-primary text-sm-center" type="text" name="cidade" id="cidade"
-                        placeholder="Cidade" required>
-                </div>
-                <div class="p-3">
-                    <label for="estado">Estado</label>
-                    <input class="text-primary text-sm-center" type="text" name="estado" id="estado"
-                        placeholder="Estado" required>
+            <div class="container-fluid my-4 bg-warning">
+                <div class="sc-large text-dark text-sm-center  p-5  d-inline-flex d-flex">
+                    <div class="p-3 sc-large">
+                        <label for="endereco">Endereço</label>
+                        <input class="color-input text-primary text-sm-center" type="text" name="endereco" id="endereco"
+                            placeholder="Endereço" required>
+                    </div>
+                    <div class="p-3 sc-large">
+                        <label for="bairro">Bairro</label>
+                        <input class="color-input text-primary text-sm-center" type="text" name="bairro" id="bairro"
+                            placeholder="Bairro" required>
+                    </div>
+                    <div class="p-3 sc-large">
+                        <label for="cidade">Cidade</label>
+                        <input class="color-input text-primary text-sm-center" type="text" name="cidade" id="cidade"
+                            placeholder="Cidade" required>
+                    </div>
+                    <div class="p-3 sc-large">
+                        <label for="estado">Estado</label>
+                        <input class="color-input text-primary text-sm-center" type="text" name="estado" id="estado"
+                            placeholder="Estado" required>
+                    </div>
                 </div>
 
             </div>
