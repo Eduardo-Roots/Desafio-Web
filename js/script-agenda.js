@@ -1,5 +1,5 @@
-let lembretes;
-let output;
+let lembretes = [];
+let output = [];
 
 function formatDate(date) {
     // formata a data para o formato DD/MM/YYYY
