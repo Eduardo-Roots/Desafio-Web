@@ -2,6 +2,10 @@
     /* body *{
         background-color: blueviolet;
     } */
+
+    .logo{
+        font-size: 60px;
+    }
     
     .sc-large{
         /* background-color: aliceblue; */
