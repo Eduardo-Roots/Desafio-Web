@@ -27,7 +27,7 @@ function clearList() {
     for (let i = 0; i < lembretes.length; i++) {
         if (lembretes[i].done === 'false') {
             // remove 1 elemento na posição i;
-            lembretes.splice(i, 1);
+            lembretes.splice(i);
             // localStorage.clear('tasks', JSON.stringify(lembretes))
             localStorage.removeItem('tasks', JSON.stringify(lembretes))
             // voltando o indice no array para validar novamente a lista
