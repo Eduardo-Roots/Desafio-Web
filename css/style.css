@@ -43,4 +43,10 @@
         justify-content: center;
 
     }
+
+    #saida-central{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
